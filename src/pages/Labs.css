@@ -1,0 +1,55 @@
+
+.container
+{
+    width:100%;
+    height:100svh;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background: linear-gradient(135deg, #007BFF, #6C757D);
+}
+.container h1
+{
+    text-align: center;
+    color: white;
+    font-size:2.5rem;
+}
+.lab-link{
+    width:150px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d508e3;
+    color: white;
+    align-self: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+.container iframe
+{
+    align-self: center;
+}
+.download-button
+{
+    width:200px;
+    height:50px;
+    background-color: #28A745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    align-self: center;
+}
